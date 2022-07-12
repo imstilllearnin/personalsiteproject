@@ -1,0 +1,154 @@
+body {
+  margin: 0;
+  text-align: center;
+  color: #40514e
+}
+
+h1 {
+  font-size: 562.5%;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #66BFBF;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #11999E;
+}
+
+a {
+  color: #11999E;
+  margin: 10px 20px;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+p {
+  line-height: 2;
+}
+
+hr {
+  border: 6px;
+  border-style: dotted;
+  border-color: #93b7b7;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+
+.bottom-container {
+  background-color: #66bfbf;
+  margin:auto auto;
+  padding: 23px;
+  /* margin-bottom: 30px; */
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 50px;
+  width: 30%;
+}
+
+.bio {
+  width: 30%;
+  margin: auto;
+}
+
+.contact-me {
+  padding: 50px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.copyright {
+  color: #eaf6f6;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background:  #30e3cb;
+  background-image: -webkit-linear-gradient(top,  #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top,  #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top,  #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top,  #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom,  #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+.python-logo{
+  width: 13%;
+  float: left;
+  margin-right: 30px;
+}
+
+.web-logo {
+  width: 13%;
+  float: right;
+  margin-left: 30px;
+}
+
+#web-row {
+  text-align: right;
+}
+
+#coding-row {
+  text-align: left;
+}
+
+/* .skill-text, .skill-heading {
+  text-align: left;
+}
+*/
+
+.top_container {
+  background-color: #E4F9F5;
+   /*#9FC088 in case i wanna vhange back */
+   padding-top: 100px;
+
+  padding-bottom: 40px
+}
+
+.middle_container {
+  margin: 100px 0;
+}
+
+.top_cloud{
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom_cloud{
+  position: absolute;
+  left: 300px;
+  top: 300px;
+}
